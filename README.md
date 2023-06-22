@@ -33,12 +33,13 @@ A sample application used to demonstrate *SOLID* principles.
 
 The `master` branch shows the *initial* code used in the course. It's the starting point. If you want to follow along, you can Fork this repository or download a ZIP with the code. There are separate tags (and branches for that matter) for each of the 5 principles that you can review or download as well. Here are links you can use to jump to these tagged versions in your browser:
 
-- [SRP Start](https://github.com/ardalis/SolidSample/tree/SRP-START)
-- [OCP Start](https://github.com/ardalis/SolidSample/tree/OCP-START)
-- [LSP Start](https://github.com/ardalis/SolidSample/tree/LSP-START)
-- [ISP Start](https://github.com/ardalis/SolidSample/tree/ISP-START)
-- [DIP Start](https://github.com/ardalis/SolidSample/tree/DIP-START)
-
+- [SRP Start](https://github.com/sorryb/SolidSample/tree/SRP-START)
+- [OCP Start](https://github.com/sorryb/SolidSample/tree/OCP-START)
+- [LSP Start](https://github.com/sorryb/SolidSample/tree/LSP-START)
+- [ISP Start](https://github.com/sorryb/SolidSample/tree/ISP-START)
+- [DIP Start](https://github.com/sorryb/SolidSample/tree/DIP-START)
+- [DIP End](https://github.com/sorryb/SolidSample/tree/DIP1)
+  
 ## Podcast and Other Resources
 
 Pluralsight course: [SOLID Principles for C# Developers](https://app.pluralsight.com/library/courses/csharp-solid-principles).
