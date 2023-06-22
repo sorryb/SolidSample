@@ -2,25 +2,27 @@
 
 > High-level modules(business or domain modules) should not depend on low-level modules(logging or file system modules). Both should depend on abstractions.
 
+Abstraction means:
+
+1. Interface
+
+2. Abstract base clases.
 
 ## How to implement DI
 
-> 
+1.First, to make sure that your higher-level classes depend on abstractions, not implementation details. 
 
-## The sample from Robert "Uncle Bob" Martin
+2.Then be sure that these abstractions don't leak details. They shouldn't care about how they're implemented. 
 
+3.Be sure to write your classes so they are explicit about what they need, and clients should inject these classes' dependencies when they create them, perhaps using a container to help with this. 
 
+4.Finally, use folders in an appropriately structured solution to leverage dependency inversion and produce code that's loosely coupled and easy to maintain and test. 
 
-### Raw implementation
-
-
-
+>![SRP](DI_Solution.png "Implement DI")
 
 ## Resources
 
 - [Check with fiddle](https://dotnetfiddle.net/)
-- [Learning OCP](https://medium.com/@pablodarde/learning-the-open-closed-principle-with-the-strategy-design-pattern-933dfa04d1e8)
-- [The Open-Close Principle](https://cleancoders.com/episode/clean-code-episode-10)
 - [Strategy Design Pattern](https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm)
 
 ### Clean Architecture References
